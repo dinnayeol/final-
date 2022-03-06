@@ -1,0 +1,152 @@
+body {
+  font-family: Ubuntu;
+}
+
+#title {
+  background-color: #FDFEFE ;
+  color: #000;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+li {
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #D96098;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FFCDDD;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #D96098;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*.download-button {
+  color: white;
+  margin: 3% 5% 0 0;
+}*/
+
+.title-img {
+  width: 60%;
+  transform: rotate(14deg);
+  margin-left: 60px;
+  padding: 5%;
+}
+
+#features {
+  background-color: #E8DAEF;
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  margin: 20px;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #FFF0F5;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+footer{
+  display: block;
+  background-color: #E8DAEF;
+  position:relative;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: auto;
+}
+.container{
+  margin: auto;
+}
+.footer_in {
+  height: 5.5rem;
+  /*border-top: 8px solid #f7f7f7;
+  display: -ms-flexbox;*/
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.copyright{
+    margin-top: 10px;
+    font-size: 14px;
+     width: 85vw;
+    color: black;
+    text-align: center;
+}
+.made{
+  margin-top: 10px;
+  font-size: 14px;
+  color: black;
+  padding: 0 15px;
+}
